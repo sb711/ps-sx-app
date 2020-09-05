@@ -1,5 +1,6 @@
 # SpaceX Launch Program App
 
+https://ps-sx-app.herokuapp.com/ 
 A front-end application which helps users list and browse all launches by SpaceX program. It contains server side rendering of front-end application. The application has a full responsive design for mobile, tablet & desktop view.
 
 ### Prerequisites
@@ -14,7 +15,8 @@ To download Node.js, visit the following link: https://nodejs.org/en/download/. 
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Heroku App Link:
+https://ps-sx-app.herokuapp.com/
 
 ## Built With
 
