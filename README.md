@@ -1,27 +1,25 @@
-# PsSxApp
+# SpaceX Launch Program App
+
+A front-end application which helps users list and browse all launches by SpaceX program. It contains server side rendering of front-end application. The application has a full responsive design for mobile, tablet & desktop view.
+
+### Prerequisites
+
+Node.js is required to install the application. The version of Node.js used in this project is 12.18.3.
+To download Node.js, visit the following link: https://nodejs.org/en/download/. After downloading, run the downloaded file and follow the instructions.
+
+### Installing
+
+* After cloning the project, run npm install
+* For running the project, run npm run dev:ssr 
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
 
-## Development server
+## Authors
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* **Shubham Bhardwaj** - https://github.com/sb711

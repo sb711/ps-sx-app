@@ -1,0 +1,20 @@
+<div class="launch-program-content">
+    <div class="img-container">
+        <!-- Add Image Lazy Loading -->
+        <img defaultImage="assets/images/default.png" [lazyLoad]="launchprogram.links.mission_patch"
+            alt="space-launcher-image" />
+    </div>
+    <div class="detail-container">
+        <p class="mission-name">{{launchprogram.mission_name}} #{{launchprogram.flight_number}}</p>
+        <p class="mission-ids" *ngIf="launchprogram.mission_id.length">Mission Ids:</p>
+        <ul>
+            <li *ngFor="let missionId of launchprogram.mission_id">
+                {{missionId}}
+            </li>
+        </ul>
+        <p class="launch">Launch Year: <span>{{launchprogram.launch_year}}</span></p>
+        <p class="launch">Successful Launch: <span>{{launchprogram.launch_success}}</span></p>
+        <p class="launch">Successful Landing:
+            <span>{{launchprogram.rocket.first_stage.cores[0].land_success ? true : false}}</span></p>
+    </div>
+</div>

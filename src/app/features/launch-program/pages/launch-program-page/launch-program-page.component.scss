@@ -1,0 +1,18 @@
+:host {
+    flex: 3;
+    @media (max-width: 700px) { 
+        flex: unset;
+        width: 100%;
+        margin-left: 0;
+    }
+    .launch-program-page {
+        display: flex;
+        flex-wrap: wrap;
+        h2 {
+            margin-left: 5px;
+            @media (max-width: 700px) { 
+                font-size: 16px;
+            }
+        }
+    }
+}

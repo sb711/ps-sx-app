@@ -1,0 +1,30 @@
+<div class="launch-program-filters">
+    <h2>Filters:</h2>
+    <div class="filter-options-container">
+        <p class="filter-name">Launch Year</p>
+        <div class="filter-options">
+            <span *ngFor="let year of launchYears" (click)="onApplyingFilter('launch_year', year)"
+                [class]="year === currentFilter.launch_year ? 'active': null">
+                {{year}}
+            </span>
+        </div>
+        <p class="filter-name">Successful Launch</p>
+        <div class="filter-options">
+            <span (click)="onApplyingFilter('launch_success', true)" [class]="true === currentFilter.launch_success ? 'active': null">
+                True
+            </span>
+            <span (click)="onApplyingFilter('launch_success', false)" [class]="false === currentFilter.launch_success ? 'active': null">
+                False
+            </span>
+        </div>
+        <p class="filter-name">Successful Landing</p>
+        <div class="filter-options">
+            <span (click)="onApplyingFilter('land_success', true)" [class]="true === currentFilter.land_success ? 'active': null">
+                True
+            </span>
+            <span (click)="onApplyingFilter('land_success', false)" [class]="false === currentFilter.land_success ? 'active': null">
+                False
+            </span>
+        </div>
+    </div>
+</div>

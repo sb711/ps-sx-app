@@ -1,0 +1,5 @@
+<div class="launch-program-page">
+    <app-launch-program-content *ngFor="let lp of launchPrograms" [launchprogram]="lp"></app-launch-program-content>
+    <h2 *ngIf="!launchPrograms.length && !isLoading">No Launch Program Found!</h2>
+    <h2 *ngIf="isLoading" class="loading">Loading...</h2>
+</div>
